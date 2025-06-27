@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Parrot Security tool Uninstalling script running....."
-
+# read uninstallpkg
 packages=(
     "swaks" "socat" "seclists" "nmap" "recon-ng" "binwalk" "etherape" "p0f"
     "maltego" "yt-dlp" "zoph" "hackthebox-icon-theme" "hamster-sidejack"
@@ -16,7 +16,7 @@ packages=(
     "ike-scan" "ssldump" "sslscan" "rizin-cutter" "ghidra" "smali" "dex2jar"
     "gdb" "can-utils")
 
-#removed "hamster-sidejack" (appeared twice) and kept yt-dlp
+#removed "hamster-sidejack" (appeared twice) and kept yt-dlp (very useful)
 
 echo "Starting removal of parrot sec tools"
 
